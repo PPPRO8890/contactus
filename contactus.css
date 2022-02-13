@@ -1,0 +1,153 @@
+
+
+
+.detail_3_box{width:80vw;
+}
+
+.cusheading{color: #01818c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.cusheading1{color: #036696;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cupara{
+    background: #eaf7fc;
+    color: #2b7397;
+    font-size:1.33vw;
+    border-radius: 0.5em; 
+}
+.cupara3{
+    font-size:1.05vw;
+}
+
+.contactusboxes1{
+    font-size:1vw ;
+ 
+}
+.contactusboxes{
+  
+    width: 20vw ;
+    margin: 0 0 0 1em ;
+    
+}
+.cuparah{
+    color: #01818c;
+}
+.submit{
+    background-color: #01818c;
+    width: 6.5vw;
+    color: white;
+    border-radius: 0.3em;
+    padding-left: 1.2em;
+    font-size: 1.2vw;
+
+}
+
+.contantfont{
+    width:15vw;
+    text-align:left;
+}
+
+.contactFormFields{
+    background: #eaf7fc;
+    border:none;
+    color: #455A64;
+
+
+}
+
+.contactFormFields:focus{
+    background:#eaf7fc;
+    color: #455A64;
+}
+
+.contactFormFields::placeholder{
+    font-style:italic;
+    color: #455a646d;
+
+}
+
+.condition{
+    font-size: 1vw;
+}
+.message1{
+    color: #036696;
+    width: 14em;
+    margin: 1em auto 1em auto;
+    font-size: 1.28vw;
+}
+.boxelement{
+    padding:0 1.3vw 0 1.3vw;
+}
+
+
+
+@media only screen and (max-width: 1182px){
+    .contantfont{
+        font-size: 2.03vw;
+        width:30vw;
+        }
+
+        .cusheading1{
+            padding-bottom:1.3vw;
+        }
+
+
+    .contantfont3{
+        font-size:1.8vw;
+    }
+        .message1{
+         
+            width: 14.2em;
+            margin: 1em auto 1em auto;
+            font-size: 1.9vw;
+        }
+
+}
+
+@media only screen and (max-width: 769px){
+    .submit{
+        width: 8vw;
+        padding-left: 0.6em;
+        font-size: 1.8vw;  
+    }
+
+
+    .contantfont{
+        font-size: 2.5vw;
+        width:35vw;
+        }
+        .contantfont3{
+            font-size:2vw;
+        }
+        .message1{
+         background-color: antiquewhite;
+            width: 15.2em;
+            margin: 1em auto 1em auto;
+            font-size: 3.3vw;
+        }
+}
+@media only screen and (max-width: 466px){
+    .submit{
+        width: 14vw;
+        padding-left: 0.6em;
+        font-size: 3.1vw;  
+    }
+
+    .contantfont{
+        font-size: 4vw;
+        }
+        .contantfont3{
+            font-size:3.2vw;
+        }
+        .message1{
+          
+               width: 15em;
+               margin: 1em auto 1em auto;
+               font-size:4vw;
+           }
+}
